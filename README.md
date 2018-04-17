@@ -2,22 +2,8 @@
 My Git Cheat Sheet
 
 
-### Commit : this command will commit all the changes regardless of add.
-```Shell
-git commit -a -m "msg"    
-```
-### Difference
-```Shell
- git diff <souce> <destination>
-```
-### Commit logs
-```Shell
-
-git log --oneline --graph
-```
 ### List Branch
 ```Shell
-
 git branch  
 ```
 
@@ -26,19 +12,18 @@ git branch
 git branch b1   
 ```
 
+### Checkout Branch  : if you want to create branch from that older version.
+```Shell
+git checkout -b <new-branch-name>   
+```
 ### Checkout Branch 
 ```Shell
 git checkout <Branch Name>  
 ```
-### Fast Merge 
-```Shell
 
-Merge via ->> fast forward
-```
-### recusive statagy 
+### Commit logs
 ```Shell
-
-Merge via
+git log --oneline --graph
 ```
 
 ### Log of commits
@@ -46,6 +31,10 @@ Merge via
 git log --oneline --decorate
 ```
 
+### Difference
+```Shell
+ git diff <souce> <destination>
+```
 
 ### Checkout 
 ```Shell
@@ -53,10 +42,7 @@ git checkout <versionid>
 ```
 
 
-### Checkout Branch  : if you want to create branch from that older version.
-```Shell
-git checkout -b <new-branch-name>   
-```
+
 
 ### Amend the  commit
 ```Shell
