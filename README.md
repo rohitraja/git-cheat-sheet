@@ -9,10 +9,10 @@ git branch
 
 ### Create Branch
 ```Shell
-git branch b1   
+git branch <new-branch-name>
 ```
 
-### Checkout Branch  : if you want to create branch from that older version.
+### Create and Checkout Branch
 ```Shell
 git checkout -b <new-branch-name>   
 ```
@@ -21,12 +21,12 @@ git checkout -b <new-branch-name>
 git checkout <Branch Name>  
 ```
 
-### Commit logs
+### List Commit logs
 ```Shell
 git log --oneline --graph
 ```
 
-### Log of commits
+### list Commit logs 
 ```Shell
 git log --oneline --decorate
 ```
@@ -41,18 +41,10 @@ git log --oneline --decorate
 git checkout <versionid>
 ```
 
-
-
-
 ### Amend the  commit
 ```Shell
 git commit --amend
 ```
-### Commit 
-```Shell
-export https_proxy = www-proxy.us.oracle.com:80  :  proxy command to bypass vpn
-```
-
 ### Fetch to get info 
 ```Shell
 git fetch
