@@ -21,6 +21,12 @@ git checkout -b <new-branch-name>
 git checkout <Branch Name>  
 ```
 
+
+### Clone Git Repository from scratch
+```Shell
+git clone https://github.com/rohitraja/git-cheat-sheet.git
+```
+
 ### List Commit logs
 ```Shell
 git log --oneline --graph
