@@ -37,14 +37,9 @@ git log --oneline --graph
 git log --oneline --decorate
 ```
 
-### Difference
+### Checkout a detached branch to a Commit Id
 ```Shell
- git diff <souce> <destination>
-```
-
-### Checkout 
-```Shell
-git checkout <versionid>
+git checkout <commit Id>
 ```
 
 ### Amend the  commit
@@ -69,6 +64,12 @@ git remote -v
 
 ```Shell
 git push --set-upstream origin <branch name>  ```
+```
+
+
+### Difference
+```Shell
+ git diff <souce> <destination>
 ```
 
 
