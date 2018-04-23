@@ -105,8 +105,9 @@ git stash
 git revert c6f37fd
 ```
 
-### Rest 
+### Reset 
 ```Shell
+git reset --hard HEAD
 git reset --hard 00b9c34
 ```
 ### Reflog 
