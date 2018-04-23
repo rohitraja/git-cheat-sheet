@@ -16,6 +16,14 @@ git branch <new-branch-name>
 ```Shell
 git checkout -b <new-branch-name>   
 ```
+
+
+### Create local branch from remote branch
+```Shell
+git checkout -b <desired_branch_name> origin/<remote_branch_name>
+git checkout -b additional_commands origin/additional_commands
+
+```
 ### Checkout Branch 
 ```Shell
 git checkout <Branch Name>  
@@ -63,7 +71,7 @@ git remote -v
 ### Set your local branch to upstream where the push should go  -> : if the branch is created local you need to upstream
 
 ```Shell
-git push --set-upstream origin <branch name>  ```
+git push --set-upstream origin <branch name>
 ```
 
 
@@ -73,10 +81,7 @@ git push --set-upstream origin <branch name>  ```
 ```
 
 
-### create local branch from remote branch
-```Shell
-git checkout -b sf origin/serverfix           : 
-```
+
 ### Abort merge
 ```Shell
 git merge --abort
