@@ -80,8 +80,11 @@ git push --set-upstream origin <branch name>
  git diff <souce> <destination>
 ```
 
-
-
+### Merge two branches
+```Shell
+git checkout <target>
+git merge <source>
+```
 ### Abort merge
 ```Shell
 git merge --abort
