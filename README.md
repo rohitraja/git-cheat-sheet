@@ -2,6 +2,8 @@
 My Git Cheat Sheet
 
 
+
+## Branch ##
 ### List Branch
 ```Shell
 git branch  
@@ -34,6 +36,9 @@ git checkout <Branch Name>
 ```Shell
 git clone https://github.com/rohitraja/git-cheat-sheet.git
 ```
+
+
+## Logs ##
 
 ### List Commit logs
 ```Shell
