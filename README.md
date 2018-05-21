@@ -4,35 +4,40 @@ My Git Cheat Sheet
 
 
 ## Branch ##
-### List Branch
+#### List Branch
 ```Shell
 git branch  
 ```
 
-### Create Branch
+#### List last commits and its msg with upstream branch if any
+```Shell
+git branch -vv
+```
+
+#### Create Branch
 ```Shell
 git branch <new-branch-name>
 ```
 
-### Create and Checkout Branch
+#### Create and Checkout Branch
 ```Shell
 git checkout -b <new-branch-name>   
 ```
 
 
-### Create local branch from remote branch
+#### Create local branch from remote branch
 ```Shell
 git checkout -b <desired_branch_name> origin/<remote_branch_name>
 git checkout -b additional_commands origin/additional_commands
 
 ```
-### Checkout Branch 
+#### Checkout Branch 
 ```Shell
 git checkout <Branch Name>  
 ```
 
 
-### Clone Git Repository from scratch
+#### Clone Git Repository from scratch
 ```Shell
 git clone https://github.com/rohitraja/git-cheat-sheet.git
 ```
@@ -40,17 +45,17 @@ git clone https://github.com/rohitraja/git-cheat-sheet.git
 
 ## Logs ##
 
-### List Commit logs
+#### List Commit logs
 ```Shell
 git log --oneline --graph
 ```
 
-### list Commit logs 
+#### list Commit logs 
 ```Shell
 git log --oneline --decorate
 ```
 
-### Checkout a detached branch to a Commit Id
+#### Checkout a detached branch to a Commit Id
 ```Shell
 git checkout <commit Id>
 ```
