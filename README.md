@@ -128,6 +128,11 @@ git revert c6f37fd
 git reset --hard HEAD
 git reset --hard 00b9c34
 ```
+
+### Undoing the Last Commit
+```Shell
+git reset --soft HEAD~1
+```
 ### Reflog 
 ```Shell
 git reflog
