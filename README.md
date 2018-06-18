@@ -133,6 +133,13 @@ git reset --hard 00b9c34
 ```Shell
 git reset --soft HEAD~1
 ```
+
+
+### Unstage and remove paths only from the index
+```
+git rm --cached -r <Folder Name>
+git rm --cached -r public_html/GrosumCordova/plugins
+```
 ### Reflog 
 ```Shell
 git reflog
