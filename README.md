@@ -116,7 +116,9 @@ git config --global --add diff.tool kdiff3
 ```
 ### Stash changes 
 ```Shell
-git stash
+git stash save "Save_Name"
+git stash apply stash@{index} //will apply the stash and also kep the stash
+git stash pop stash@{index}   //will apply the stash and pop it from stash list
 ```
 ### Revert to old commit 
 ```Shell
@@ -159,13 +161,7 @@ git difftool --tool kdiff3
 
 
 
-1. So this config file is global or local. ?
-   yes it has global and local copy of config file. 
 
-
-2. From the same repository you can commit with different user name. if multiple users are configured. 
-
-3. When you do commit. Only the last changes you have added using "git add <file>" will go to state, not the one one which you have't added. 
 
 
 
