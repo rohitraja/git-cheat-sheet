@@ -142,6 +142,14 @@ git reset --soft HEAD~1
 git rm --cached -r <Folder Name>
 git rm --cached -r public_html/GrosumCordova/plugins
 ```
+
+
+### Config 
+```
+git config --add remote.origin.proxy ""  //bypass Proxy
+
+git config --global --get http.proxy     // check Proxy
+```
 ### Reflog 
 ```Shell
 git reflog
