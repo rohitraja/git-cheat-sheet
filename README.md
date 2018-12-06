@@ -119,6 +119,7 @@ git config --global --add diff.tool kdiff3
 git stash save "Save_Name"
 git stash apply stash@{index} //will apply the stash and also kep the stash
 git stash pop stash@{index}   //will apply the stash and pop it from stash list
+git stash drop stash@{n}      //Delete specific stash
 ```
 ### Revert to old commit 
 ```Shell
