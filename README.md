@@ -90,6 +90,12 @@ git push --set-upstream origin <branch name>
  git diff <souce> <destination>
 ```
 
+### Cherry-Pick
+```
+git cherry-pick -n <commit> # get your patch, but don't commit (-n = --no-commit)
+```
+
+
 ### Merge two branches
 ```Shell
 git checkout <target>
