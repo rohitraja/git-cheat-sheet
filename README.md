@@ -142,6 +142,14 @@ git reset --hard 00b9c34
 ```Shell
 git reset --soft HEAD~1
 ```
+## Undo commit and redo ## reffer [stackoverflow](https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-commits-in-git)
+```
+$ git commit -m "Something terribly misguided"             # (1)
+$ git reset HEAD~                                          # (2)
+<< edit files as necessary >>                              # (3)
+$ git add ...                                              # (4)
+$ git commit -c ORIG_HEAD  
+```
 
 
 ### Unstage and remove paths only from the index
