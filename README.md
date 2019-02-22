@@ -60,12 +60,13 @@ git log --oneline --decorate
 git checkout <commit Id>
 ```
 
-## Amend the  commit##
+## Amend the  commit ##
 ### Amend
 ```Shell
 git commit --amend
 ```
-### Change Last Committed User Reffer [Link](https://www.git-tower.com/learn/git/faq/change-author-name-email)
+### Change Last Committed User ### 
+Reffer [Link](https://www.git-tower.com/learn/git/faq/change-author-name-email)
 ```
 $ git config user.name "Rohit Pahan"
 $ git config user.email "rohit.pahan@org.com"
