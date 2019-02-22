@@ -61,17 +61,17 @@ git checkout <commit Id>
 ```
 
 ## Amend the  commit##
-###Amend###
+###Amend
 ```Shell
 git commit --amend
 ```
-###Change Last Committed User### Reffer [Link](https://www.git-tower.com/learn/git/faq/change-author-name-email)
+###Change Last Committed User Reffer [Link](https://www.git-tower.com/learn/git/faq/change-author-name-email)
 ```
 $ git config user.name "Rohit Pahan"
 $ git config user.email "rohit.pahan@org.com"
 $ git commit --amend --author="Rohit Pahan <rohit.pahan@org.com>"
 ```
-### Fetch to get info 
+### Fetch to get info ###
 ```Shell
 git fetch
 ```
