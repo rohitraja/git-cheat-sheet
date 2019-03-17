@@ -41,7 +41,26 @@ git checkout <Branch Name>
 ```Shell
 git clone https://github.com/rohitraja/git-cheat-sheet.git
 ```
+## Multiple Remote Repostory ##
+### Work with multiple remote repositories. 
+If you wish to have your same code hosted in multiple remote repositories eg. one on Github and one in Heroku
+refer these link for more help [Github1](https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line)  [Github2](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
 
+```Shell
+$ git remote add origin <URL>
+# Sets the new remote
+$ git remote -v
+# Verifies the new remote URL
+# Eg
+heroku	https://git.heroku.com/whispering-caverns-58054.git (fetch)
+heroku	https://git.heroku.com/whispering-caverns-58054.git (push)
+origin	https://github.com/rohitraja/emaily-udemy.git (fetch)
+origin	https://github.com/rohitraja/emaily-udemy.git (push)
+$ git push heroku master 
+# to push it to heroku
+$ git push origin master
+# to push to Github
+```
 
 ## Logs ##
 
