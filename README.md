@@ -208,6 +208,20 @@ git difftool --tool kdiff3
 ```
 
 
+### Include private repos in Package.json of Node project to do npm install 
+```Shell
+Eg: To include private repositoy in Node project in package.json file
+
+  "dependencies": {
+    "repo1": "<protocol>://[<user>[:<password>]@]<hostname>[:<port>][:][/]<path>[#<commit-ish> | #semver:<semver>]
+",
+    "repo2": "git+https://user123:password123@github.com/abc/xyz.git#master"
+ }
+ 
+ Note: If you have "@" in you password you may face issues. 
+```
+
+
 
 
 
