@@ -213,8 +213,7 @@ git difftool --tool kdiff3
 Eg: To include private repositoy in Node project in package.json file
 
   "dependencies": {
-    "repo1": "<protocol>://[<user>[:<password>]@]<hostname>[:<port>][:][/]<path>[#<commit-ish> | #semver:<semver>]
-",
+    "repo1": "<protocol>://[<user>[:<password>]@]<hostname>[:<port>][:][/]<path>[#<commit-ish> | #semver:<semver>]",
     "repo2": "git+https://user123:password123@github.com/abc/xyz.git#master"
  }
  
